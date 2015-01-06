@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Stylesheet */
+
+* {
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+ font-family: 'Bitter', serif;
+}
+
+ul, li {
+	list-style: none;
+}
+
+table {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+
+}
+
+
+/*********************************************** Header ******************************/
+
+#header_container {
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid red;
+	padding: 8px 0px 8px 0px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 110;
+}
+
+.site_company_title {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 2.6em;
+}
+
+/************************************************* Dropdown Menu CSS ***************************************/
+
+#cssmenu {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  font-size: 3.3em;
+  text-transform: uppercase;
+}
+#cssmenu > ul {
+  width: 300px;
+  list-style-type: none;
+  background: clear;
+}
+#cssmenu > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */
+
+}
+#cssmenu > ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+#cssmenu > ul li.has-sub {
+  position: relative;
+}
+#cssmenu > ul li.has-sub:hover ul {
+  display: block;
+}
+#cssmenu > ul li.has-sub ul {
+  display: none;
+  width: 250px;
+  position: absolute;
+  list-style-type: none;
+}
+#cssmenu > ul li.has-sub ul li {
+  display: block;
+}
+#cssmenu > ul li.has-sub > a {
+}
+#cssmenu > ul li.has-sub > a.active,
+#cssmenu > ul li.has-sub > a:hover {
+}
+#cssmenu > ul li a {
+  display: block;
+  text-decoration: none;
+  color: #747474;
+}
+#cssmenu > ul li a.active,
+#cssmenu > ul li a:hover {
+  color: grey;
+}
+
+#cssmenu ul li ul li {
+	width: 100%;
+	height: auto;
+	background-color: lightgrey;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,605 @@
+@charset "UTF-8";
+/* CSS Stylesheet */
+
+* {
+ margin: 0px;
+ padding: 0px;
+}
+
+ul, li {
+	list-style: none;
+}
+
+table {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+
+}
+
+#PageWrapper {
+    width: 90%;
+    margin:auto;
+    height: auto;
+    padding-top: 30px;
+}
+
+
+#background_index {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/sneaker_mesh_fabric_@2X.png');
+}
+
+#background_myusyas {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/sneaker_mesh_fabric_@2X.png');
+}
+
+#background_hockey {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/hockey_bg.jpg');
+	background-size: cover;
+}
+
+#background_soccer {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/soccer_bg.jpg');
+	background-size: cover;
+}
+
+#background_basketball {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/basketball_bg.jpg');
+	background-size: cover;
+}
+
+#background_football {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/football_bg.jpg');
+	background-size: cover;
+}
+
+#background_baseball {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/baseball_bg.jpg');
+	background-size: cover;
+}
+
+#background_tennis {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/tennis_bg.jpg');
+	background-size: cover;
+}
+
+#background_swimming {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/swimming_bg.jpg');
+	background-size: cover;
+}
+
+#background_track {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/track_bg.jpg');
+	background-size: cover;
+}
+
+#background_volleyball {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/');
+	background-size: cover;
+}
+
+#background_wrestling {
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/');
+	background-size: cover;
+}
+
+
+/*********************** Top  Header CSS **************************/
+
+#top_header_container {
+	width: 100%;
+	height: auto;
+	background: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 1px solid red;
+}
+
+.logo {              
+	width: 50;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#headerLoginForm {
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#headerFloatRightContainer {
+    width: 650px;
+    height: auto;
+    padding: 3px;
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.header_input {
+	width: 150px;
+	height: 30px;
+}
+
+.header_submit {
+	width: 75px;
+	height: 30px;
+}
+
+.regiterLinkinHeader {
+    display: inline-block;
+    vertical-align: middle;
+    color: #1a2a43;
+}
+
+
+/*********************** Menu Container Header CSS **************************/
+
+#menu_container {
+	width: 100%;
+	height: auto;
+	background-color: #1a2a43;
+	padding: 6px 0px 6px 0px;
+        border-bottom: 1px solid white;
+}
+
+#nav_table {
+	width: 100%;
+}
+
+#nav_table tr {
+
+}
+
+#nav_table tr td {
+	width: 100px;
+	text-align: center;
+}
+
+#nav_table a {
+	color: white;
+}
+#nav_table a:hover {
+	color: lightgrey;
+}
+
+/*****************
+Header_2 Styles
+***************************************************/
+
+.logoffbutton {
+    float: right;
+    margin-right: 100px;
+    padding-top: 15px;
+}
+
+
+/********* 
+Index Page Style
+*****/
+
+#indexPageBanner {
+    width: 100%;
+    height: 35%;
+    background-image: url('../images/index_banner.jpg');
+    background-size: cover;
+}
+
+.signupbannerlink {
+    padding: 15px 35px;
+    border-radius: 8px;
+    border: 2px solid lightgrey;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.56) 0%, rgba(255,255,255,0.56) 1%, rgba(255,255,255,0.45) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.56)), color-stop(1%,rgba(255,255,255,0.56)), color-stop(100%,rgba(255,255,255,0.45))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.56) 0%,rgba(255,255,255,0.56) 1%,rgba(255,255,255,0.45) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,0.56) 0%,rgba(255,255,255,0.56) 1%,rgba(255,255,255,0.45) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0.56) 0%,rgba(255,255,255,0.56) 1%,rgba(255,255,255,0.45) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0.56) 0%,rgba(255,255,255,0.56) 1%,rgba(255,255,255,0.45) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fffffff', endColorstr='#73ffffff',GradientType=0 ); /* IE6-9 */
+    width: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+.signupbannerlink p {
+    text-align: center;
+}
+
+.h2inBanner {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px #000;
+}
+
+.h3inBanner {
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px #000;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#bannertextandbuttonContainer {
+    width: 1050px;
+    margin: auto;
+    height: auto;
+    padding-top: 150px;
+}
+/***************************************** Tabbed boxes and framework ************************************/
+
+/*----- Tabs -----*/
+.tabs {
+	margin-top: 15px;
+    width:95%;
+    display:inline-block;
+	margin-left: 2.5%;
+}
+ 
+  /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:red;
+            font-size:16px;
+            font-weight:600;
+            color:white;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:lightgrey;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background: -moz-linear-gradient(top,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 1%, rgba(255,255,255,0.92) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.9)), color-stop(1%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0.92))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 1%,rgba(255,255,255,0.92) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 1%,rgba(255,255,255,0.92) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 1%,rgba(255,255,255,0.92) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 1%,rgba(255,255,255,0.92) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#ebffffff',GradientType=0 ); /* IE6-9 */
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+		
+		
+/*************************************** Global Font CSS **********************************************/
+
+* {
+font-family: 'Bitter', serif;
+}
+
+.h1 {
+	display: inline-block;
+	vertical-align: middle;
+	color: #08033D;
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
+.usyas {
+	color: red;
+}
+
+.page_title {
+	color: #1a2a43;
+	font-size: 3em;
+	font-weight: 100;
+	letter-spacing: 2px;
+	margin-left: 2.5%;
+	width: 95%;
+	padding: 5px;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 1%, rgba(255,255,255,0.63) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.6)), color-stop(1%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0.63))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 1%,rgba(255,255,255,0.63) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 1%,rgba(255,255,255,0.63) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 1%,rgba(255,255,255,0.63) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 1%,rgba(255,255,255,0.63) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#a1ffffff',GradientType=0 ); /* IE6-9 */
+	border-radius: 7px;
+	box-shadow: 2px 3px 0px #1a2a43;
+}
+
+
+/**************** Steps Table Conatiner on Index Page *********************/
+
+#theStepsContainer {
+    width: 100%;
+}
+
+#stepsTable {
+    width: 100%;
+}
+#stepsTable tr {
+    width: 80%;
+    margin: auto;
+}
+#stepsTable tr td {
+    text-align: center;
+    width: 25%;
+	vertical-align: top;
+}
+
+/****************************************** MY USYAS Page ***************************************************/
+
+#profileContainer {
+    width: 25%;
+    height: auto;
+    vertical-align: top;
+}
+#mainContentWrapper {
+    width: 100%;
+    height: 300px;
+}
+
+#sportStatsBox1 {
+
+}
+
+#pageLeft {
+    width: 18%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+#pageRight {
+    width: 81.5%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.sportName {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.4em;
+}
+
+.welcomeName {
+    text-align: center;
+    font-size: 2em;
+    width: 275px;
+}
+
+.profileImage {
+    width: 300;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-image: url('../images/default_profile_pic.jpg');
+    background-size: cover;
+}
+
+/********************
+Registration Page Styles
+**********************************************************/
+
+.reg_form {
+    width: 650px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid lightgrey;
+    border-radius: 8px;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.6) 1%, rgba(255,255,255,0.63) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.6)), color-stop(1%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,0.63))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 1%,rgba(255,255,255,0.63) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 1%,rgba(255,255,255,0.63) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 1%,rgba(255,255,255,0.63) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.6) 1%,rgba(255,255,255,0.63) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99ffffff', endColorstr='#a1ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.input_box {
+    width: 300px;
+    height: 30px;
+    margin: 8px;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 1.1em;
+    color: black;
+}
+
+.regFormTitle {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.RFreg_button {
+    width: 200px;
+    height: 30px;
+    float: right;
+    padding: 3px;
+    margin-right: 7px;
+    border-radius: 8px;
+    border: 2px solid lightgrey;
+    background: -moz-linear-gradient(top,  rgba(26,42,67,0.65) 0%, rgba(26,42,67,0.6) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(26,42,67,0.65)), color-stop(100%,rgba(26,42,67,0.6))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(26,42,67,0.65) 0%,rgba(26,42,67,0.6) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(26,42,67,0.65) 0%,rgba(26,42,67,0.6) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(26,42,67,0.65) 0%,rgba(26,42,67,0.6) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(26,42,67,0.65) 0%,rgba(26,42,67,0.6) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a61a2a43', endColorstr='#991a2a43',GradientType=0 ); /* IE6-9 */
+    color: #ffffff;
+}
+
+
+
+/***************
+Edit Profile Menu
+*************************************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset "UTF-8";
+/* Base Styles */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+#cssmenu a {
+    line-height: 1.3;
+    text-align: center;
+}
+#cssmenu {
+    float:right;
+    margin-top: -5%;
+    width: 150px;
+    background: #ffffff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 3px;
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+#cssmenu > ul > li {
+    margin: 0 0 2px 0;
+}
+#cssmenu > ul > li:last-child {
+    margin: 0;
+}
+#cssmenu > ul > li > a {
+    font-size: 15px;
+    display: block;
+    color: #ffffff;
+    text-shadow: 0 1px 1px #000;
+    background: #1a2a43;
+    border: 1px solid #000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+#cssmenu > ul > li > a > span {
+    display: block;
+    border: 1px solid #666666;
+    padding: 6px 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#cssmenu > ul > li > a:hover {
+    text-decoration: none;
+}
+#cssmenu > ul > li.active {
+    border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+    background: #1a2a43;
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
+    border: 1px solid red;
+}
+#cssmenu > ul > li.active > a span {
+    border: 1px solid red;
+}
+/* Sub menu */
+#cssmenu ul ul {
+    padding: 5px 12px;
+    display: none;
+}
+#cssmenu ul ul li {
+    padding: 3px 0;
+}
+#cssmenu ul ul a {
+    display: block;
+    color: #595959;
+    font-size: 13px;
+    font-weight: bold;
+}
+#cssmenu ul ul a:hover {
+    color: #1a2a43;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
